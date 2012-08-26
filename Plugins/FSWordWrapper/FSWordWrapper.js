@@ -14,7 +14,7 @@ ig.module('game.plugins.FSWordWrapper').requires('impact.font').defines(function
 			var line = '';
 			for (var i = 0; i < words.length; i++) {
 				var space = (i == 0) ? '' : ' ';
-				var str = currentLine + space + words[i];
+				var str = line + space + words[i];
 				if (this.font.widthForString(str) <= maxLineWidth) {
 					line = str;
 				} else {
