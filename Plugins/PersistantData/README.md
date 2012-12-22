@@ -40,4 +40,4 @@ Example:
 });`
 
 And its as simple as that. If anyone encounters any bugs, errors, or problems with the plugin
-you can shoot me an email [HERE](joerice@foursquaregames.com).
+you can shoot me an email [HERE](mailto:joerice@foursquaregames.com).
