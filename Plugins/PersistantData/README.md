@@ -24,9 +24,9 @@ Example:
     			y: 150  
     		},  
     		init: function(){  
-    			ig.system.setGame(Game2, {  
-    				passedData: this.someData  
-    			});  
+    			ig.system.setGame(Game2, {    //        Notice the extra parameter, which is an object. Though it
+    				passedData: this.someData // <====  can be of any data type. However to pass more than one piece of
+    			});                           //        data an object is needed.
     		}  
     	});  
     	Game2 = ig.Game.extend({  
